@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header img{
+    height: 150px;
+}
+header{
+    display: flex;
+    height: 55px;
+    position: fixed;
+    text-align:center;
+    background: linear-gradient(red, darkorange);
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    box-shadow:3px 3px 3px 3px;
+}
+div.banner{
+    font-size: 30px;
+    font-family: 'Aguafina Script';
+}
+section.home{
+    height: 1000px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("img1.png");
+    box-shadow: 20px 20px 20px 20px;
+}
+.containerhome{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.Kimchi{
+    font-size: 60px;
+    color:black;
+}
+.deskBiotech{
+    color:white;
+    font-size: 20px;
+    font-family: 'Angkor';
+}
+section.about{
+    height: 1000px;
+    text-align: center;
+    font-family: 'Days One';
+    background-color:antiquewhite;
+    box-shadow: 20px 20px 20px 20px;
+}
+.containerabout{
+    width: 50%;
+    margin:auto;
+    padding: 75px 20px;
+    text-align: center;
+    & img{
+        width: 275px;
+    }
+}
+section.howto{
+    height:900px;
+    padding-top: 75px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color:khaki;
+    box-shadow: 20px 20px 20px 20px;
+}
+.howto img{
+    height: 550px;
+}
+.containerhowto{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.dokumentasi{
+    margin: 20px;
+}
+section.profile{
+    background-color: #D49B54;
+    box-shadow: 20px 20px 20px 20px;
+}
+.cardprofile{
+    background-color:#C84B31;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgprofile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+nav{
+    margin-top: 0px;
+    padding: 15px;
+    text-shadow:3px 5px 10px;
+}
+nav a{
+    text-decoration: none;
+    padding:5px 15px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:ghostwhite;
+    border-radius: 0px 20px 0px 20px;
+    transition: 1s;
+    &:hover{
+        color:black;
+    }
+}
+nav a:hover{
+    color:yellow;
+    background-color:black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px;
+    transition: 1s;
+}
+.button{
+    display:inline-block;
+    padding: 12px 30px;
+    background-color:#d30000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
