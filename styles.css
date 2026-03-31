@@ -86,6 +86,7 @@ section.about{
     margin-right: 20px;
     margin-left: 145px;
     transition: 0.3s;
+    border-radius: 50px 150px 50px 150px;
 }
 .img2:hover{
     transform: translateY(-10px);
@@ -165,6 +166,7 @@ section.profile{
 }
 .medsos a{
     text-decoration: none;
+    color:black;
     padding: 5px 10px;
     border-radius: 50%;
     font-size: 24px;
@@ -173,7 +175,7 @@ section.profile{
 }
 .medsos a:hover{
     background-color: #d30000;
-    color: black;
+    color:#EEEEEE;
     transform: translateY(-5px);
 }
 nav{
